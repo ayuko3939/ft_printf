@@ -6,20 +6,24 @@
 /*   By: yohasega <yohasega@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/18 10:22:11 by yohasega          #+#    #+#             */
-/*   Updated: 2024/05/15 17:05:25 by yohasega         ###   ########.fr       */
+/*   Updated: 2024/05/15 18:10:28 by yohasega         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
-# include <stdarg.h> // va_list
-# include <stddef.h> // size_t
-# include <stdint.h> // uintptr_t
-# include <unistd.h> // write
+// va_list
+# include <stdarg.h>
+// size_t
+# include <stddef.h>
+// uintptr_t
+# include <stdint.h>
+// write
+# include <unistd.h>
 
 // = = = Libraries for Test = = = =
-# include <stdio.h>
+// # include <stdio.h>
 // = = = = = = = = = = = = = = = =
 
 // -+-+-+-+-+-+-+-+- libft -+-+-+-+-+-+-+-+-
